@@ -63,13 +63,12 @@ The overall return rate in the dataset is:
 
 Category-wise return rates:
 
- Product Category  Return Rate 
- ----------------  ----------: 
- Clothing               52.45% 
- Electronics            50.93% 
- Books                  50.66% 
- Toys                   49.54% 
- Home                   49.01% 
+Product Category	Return Rate
+Clothing	        52.45%
+Electronics	     50.93%
+Books	           50.66%
+Toys	            49.54%
+Home	            49.01%
 
 ### Key Finding
 
