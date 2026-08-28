@@ -46,12 +46,12 @@ Important columns include:
 
  Tool                 Purpose                       
  -------------------  ----------------------------- 
- Python               Data cleaning and analysis    
- Pandas               Data manipulation             
- SQL                  Data analysis and aggregation 
- Power BI             Dashboard and visualization   
- Scikit-learn         Machine Learning              
- Logistic Regression  Return prediction             
+ |Python              | Data cleaning and analysis    |  
+ |Pandas              | Data manipulation             |  
+ |SQL                 | Data analysis and aggregation |
+ |Power BI            | Dashboard and visualization   |
+ |Scikit-learn        | Machine Learning              |
+ |Logistic Regression | Return prediction             |
 
 ---
 
