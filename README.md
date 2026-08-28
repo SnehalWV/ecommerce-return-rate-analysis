@@ -1,5 +1,7 @@
 # ecommerce-return-rate-analysis
 E-commerce return rate analysis using Python, SQL, Power BI and Logistic
+
+
 # E-Commerce Return Rate Reduction Analysis
 
 ##  Project Overview
@@ -23,7 +25,7 @@ The main objective is to:
 
 ---
 
-## Dataset
+##  Dataset
 
 The dataset contains **10,000 e-commerce orders**.
 
@@ -44,14 +46,14 @@ Important columns include:
 
 ##  Tools & Technologies
 
- Tool                 Purpose                       
- -------------------  ----------------------------- 
- |Python              | Data cleaning and analysis    |  
- |Pandas              | Data manipulation             |  
- |SQL                 | Data analysis and aggregation |
- |Power BI            | Dashboard and visualization   |
- |Scikit-learn        | Machine Learning              |
- |Logistic Regression | Return prediction             |
+| Tool                | Purpose                       |
+| ------------------- | ----------------------------- |
+| Python              | Data cleaning and analysis    |
+| Pandas              | Data manipulation             |
+| SQL                 | Data analysis and aggregation |
+| Power BI            | Dashboard and visualization   |
+| Scikit-learn        | Machine Learning              |
+| Logistic Regression | Return prediction             |
 
 ---
 
@@ -63,12 +65,13 @@ The overall return rate in the dataset is:
 
 Category-wise return rates:
 
-Product Category	Return Rate
-Clothing	        52.45%
-Electronics	     50.93%
-Books	           50.66%
-Toys	            49.54%
-Home	            49.01%
+| Product Category | Return Rate |
+| ---------------- | ----------: |
+| Clothing         |      52.45% |
+| Electronics      |      50.93% |
+| Books            |      50.66% |
+| Toys             |      49.54% |
+| Home             |      49.01% |
 
 ### Key Finding
 
@@ -78,11 +81,11 @@ Home	            49.01%
 
 ##  Shipping Analysis
 
- Shipping Method  Return Rate 
- ---------------  ----------: 
- Next-Day              51.09% 
- Standard              50.52% 
- Express               49.94% 
+| Shipping Method | Return Rate |
+| --------------- | ----------: |
+| Next-Day        |      51.09% |
+| Standard        |      50.52% |
+| Express         |      49.94% |
 
 The differences between shipping methods are relatively small.
 
@@ -90,12 +93,12 @@ The differences between shipping methods are relatively small.
 
 ##  Payment Analysis
 
- Payment Method | Return Rate 
- --------------  ----------: 
- Gift Card            51.60% 
- Debit Card           51.12% 
- Credit Card          50.51% 
- PayPal               48.83% 
+| Payment Method | Return Rate |
+| -------------- | ----------: |
+| Gift Card      |      51.60% |
+| Debit Card     |      51.12% |
+| Credit Card    |      50.51% |
+| PayPal         |      48.83% |
 
 Payment method shows some variation, but it should not be considered the direct cause of returns without further investigation.
 
@@ -151,7 +154,7 @@ The dashboard includes:
 
 ---
 
-##  Key Insights
+## Key Insights
 
 1. Overall return rate is **50.52%**.
 2. Clothing has the highest return rate at **52.45%**.
@@ -171,8 +174,8 @@ The dashboard includes:
 * Collect detailed return reasons.
 * Add more relevant features to improve future Machine Learning models.
 
----
 
+---
 
 ##  Skills Demonstrated
 
@@ -195,3 +198,4 @@ This project demonstrates how data analysis and visualization can be used to und
 The analysis identified important return patterns, with **Clothing showing the highest return rate**. A Power BI dashboard was developed for interactive analysis, while Logistic Regression was used as an initial approach to predict return likelihood.
 
 The project provides a foundation for further analysis using detailed return reasons, product-level information and additional customer behavior features.
+
